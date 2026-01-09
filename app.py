@@ -16,7 +16,7 @@ mlflow.set_tracking_uri("http://127.0.0.1:5000")
 #EMI_MODEL_URI = mlflow.pyfunc.load_model("models/maxemi")
 
 ELIGIBILITY_MODEL_URI = "models/eligibility"
-EMI_MODEL_URI = "models/emi"
+EMI_MODEL_URI = "models/maxemi"
 
 # ----------------------------------------------------
 # Load Models
